@@ -34,4 +34,15 @@ $npm i gulp -D
 
 $npm start - ЗАПУСК Gulp.
 
+Далее копируем gulpfile.js (из этого репозитория) и в командной строке набираем команды:
+- $ npm i -D gulp-htmlmin // плагин сжатия разметки
+- $ npm i -D browser-sync // запуск локального сервера и синхронизация браузера
+- $ npm i -D gulp-plumber // перехватчик ошибок
+- $ npm i -D del
+
+Проверка ошибок. (Гужно скопировать файлы .editorconfig и .stylelintrc)
+$ npm install --save-dev stylelint
+$ npm install --save-dev stylelint-config-standard-scss
+
+$ npm i -D gulp-dart-sass
 
