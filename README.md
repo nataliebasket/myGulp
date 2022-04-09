@@ -16,7 +16,7 @@ $git commit -m "me first commit"
 Зеленая кнопа New ->
 
 Локально в папке:
-``
+```
 $git remote add origin (тут SSH ключ скопированный из репозитория на гитхабе git@github.com:.../....git)
 $git push -u origin master // делается 1 раз!!!
 ```
