@@ -4,7 +4,7 @@
 
 #### 1. Создание локального репозитория
 
-В папке:
+В папке проекта:
 ```
 $git init
 $git status
@@ -16,8 +16,10 @@ $git commit -m "me first commit"
 Зеленая кнопа New ->
 
 Локально в папке:
-$git remote add origin (pltcm SSH ключ скопированный из репозитория на гитхабе git@github.com:.../....git)
-$git push -u origin master - делается 1 раз!!!
+``
+$git remote add origin (тут SSH ключ скопированный из репозитория на гитхабе git@github.com:.../....git)
+$git push -u origin master // делается 1 раз!!!
+```
 
 ## Git подключен.
 
@@ -29,14 +31,14 @@ $npm init -y -
 $npm i gulp -D
 ```
 
-В файле package.json прописываем:
+В файле `package.json` прописываем:
 ```js
 "type": "module",
 ...
 "scripts": "start": gulp,
 ```
 
-Создаем файл gulpfile.js
+Создаем файл `gulpfile.js`
 
 ЗАПУСК Gulp:
 ```
@@ -51,7 +53,7 @@ $npm start
 - $ npm i -D del
 ```
 
-Проверка ошибок. (Гужно скопировать файлы `.editorconfig` и `.stylelintrc`)
+Проверка ошибок. (Нужно скопировать файлы `.editorconfig` и `.stylelintrc`)
 ```
 $ npm install --save-dev stylelint
 $ npm install --save-dev stylelint-config-standard-scss
