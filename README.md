@@ -27,7 +27,7 @@ $git push -u origin master // делается 1 раз!!!
 
 Локально в папке:
 ```
-$npm init -y -
+$npm init -y
 $npm i gulp -D
 ```
 
