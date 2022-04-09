@@ -5,10 +5,12 @@
 #### 1. Создание локального репозитория
 
 В папке:
+```
 $git init
 $git status
 $git add -A
 $git commit -m "me first commit"
+```
 
 #### 2. Сорздание репозитория на GitHub
 Зеленая кнопа New ->
