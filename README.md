@@ -16,7 +16,7 @@
 $git init
 $git status
 $git add -A
-$git commit -m "me first commit"
+$git commit -m "my first commit"
 ```
 
 #### 2. Сорздание репозитория на GitHub
